@@ -1,6 +1,6 @@
 # Chapter 4: 3D Object Localization from Depth
 
-In the [previous chapter](03_object_detection_layer_.md), we met our team of "spies"—the different object detectors that can find things like buoys and course markers in a 2D video feed. They give us a report like, "I see a red buoy inside this rectangle on the screen." This is great, but for a robot, it's only half the story. The robot needs to know not just *what* it sees, but *where* it is in the real world. Is that buoy 5 meters away or 50?
+In the [previous chapter](03_object_detection_layer_.md), we met our team of "spies"—the different object detectors that can find things like buoys and course markers in a 2D video feed. They give us a report like, "I see a red buoy inside this rectangle on the screen." This is great, but for a robot, it's only half the story. The robot needs to know not just *what* it sees, but *where* it is in the real world. Is that buoy 5 meters away or 50
 
 This chapter is about the magic step that gives our robot true depth perception. We'll learn how `visionsystemx` takes a flat, 2D rectangle from a detector and calculates the object's precise 3D (X, Y, Z) coordinates. It’s the difference between looking at a photograph and having a 3D model of the scene you can measure.
 
